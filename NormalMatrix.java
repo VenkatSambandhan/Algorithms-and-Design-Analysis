@@ -21,7 +21,7 @@ public class NormalMatrix {
 			// System.out.println();
 
 			// n matrixes (1*1, 2*2, 3*3 .... 10*10)
-		//	System.out.println("Intput Matrix2 ");
+		//	System.out.println("Intput Matrix2: ");
 			for (i = 0; i < x; i++) {
 				for (j = 0; j < x; j++) {
 					matrixinput2[i][j] = (float) (Math.ceil(Math.random() * 100));
@@ -34,7 +34,7 @@ public class NormalMatrix {
 
 			// n matrixes (1*1, 2*2, 3*3 .... 10*10)
 			float[][] matrixoutput = new float[x][x];
-		//	System.out.println("Output Matrix ");
+		//	System.out.println("Output Matrix: ");
 
 		//	long startTime = System.nanoTime();
 			 long startTime = System.currentTimeMillis();
